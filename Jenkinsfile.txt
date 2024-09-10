@@ -15,9 +15,9 @@ pipeline {
 	   }
 	}
     stages {
-	stage('Development') {
+	stage("hotfix") {
 	     steps {
-	       sh 'echo "This is Development branch"'
+	       sh 'echo "This is hotfix branch"'
 	   }
 	}
     }
